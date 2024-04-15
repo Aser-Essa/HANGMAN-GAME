@@ -164,7 +164,7 @@
         min-height: 290px;
     }
     .row .container .letters {
-        margin-top: 45px;
+        margin-top: 25px;
     }
     .row .container .letters .content span {
         width: 35px;
@@ -201,11 +201,11 @@
 
 @media (max-width:767px) {
     .answer .container .answer-content {
-        height: 70px;
+        height: 60px;
     }
     .answer .container .answer-content div{
-        height: 50px;
-        width: 50px;
+        height: 45px;
+        width: 45px;
     }
 }
 
