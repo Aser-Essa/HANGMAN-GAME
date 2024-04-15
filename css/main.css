@@ -291,7 +291,7 @@
 @media (max-width: 767px) {
     .winner .container,
     .looser .container {
-        height: 380px;
+        height: 370px;
         text-align: center;
     }
     .winner .container p,
