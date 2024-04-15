@@ -137,5 +137,3 @@ for (let i = 0; i < word.length; i++) {
 playagain.onclick = function () {
     location.reload()
 }
-
-console.log(word)
