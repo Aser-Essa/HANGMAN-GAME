@@ -226,18 +226,17 @@
 @media (max-width: 767px) {
     .hint-playagain .hint {
         position: absolute;
-        bottom: 21px;
-        left: 15px;
-        font-size: 16px;
-        padding: 11px 28px;
+        bottom: 5px;
+        left: 23px;
+        font-size: 12px;
+        padding: 9px 26px;
     }
     .hint-playagain .try-again {
         position: absolute;
-        bottom: 21px;
-        padding: 11px 6px;
-        right: 15px;
-        font-size: 16px;
-        
+        bottom: 4px;
+        padding: 9px 5.5px;
+        right: 24px;
+        font-size: 12px;
     }
 }
 
