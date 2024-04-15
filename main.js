@@ -1,4 +1,4 @@
-let title = ["Countries" , "Programming" , "Music" , "Movies" , "Animals" , "Sports"]
+let title = ["COUNTRIES" , "PROGRAMMING" , "MUSIC" , "MOVIES" , "ANIMALS" , "SPORTS"]
 
 let choosenWord = {
     0: ["EGYPT" , "SAUDI" , "ENGLAND" , "FRANCE" , "SPAIN" , 'GERMAN' , "CHINA" , "MOROCCO" , "ALGERIA" , "BRAZIL" , "AMERICA" , "CANADA" , "INDIA" , "IRAN" , "JAPAN" , "KOREA" , "KUWAIT" , "NIGER" , "TURKEY"],

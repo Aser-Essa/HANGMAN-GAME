@@ -161,18 +161,18 @@
     }
     .row .container .hang-man {
         width: 100%;
-        min-height: 310px;
+        min-height: 290px;
     }
     .row .container .letters {
-        margin-top: 55px;
+        margin-top: 45px;
     }
     .row .container .letters .content span {
-        width: 45px;
-        height: 45px;
-        font-size: 24px;
+        width: 40px;
+        height: 40px;
+        font-size: 22px;
     }
     .row .container .hang-man .two {
-        height: 270px;
+        height: 255px;
     }
 }
 
@@ -187,7 +187,7 @@
     height: 110px;
 }
 
-.answer .container .answer-content div{
+.answer .container .answer-content div {
     height: 60px;
     width: 60px;
     background-color: #fdfdfd;
@@ -201,7 +201,11 @@
 
 @media (max-width:767px) {
     .answer .container .answer-content {
-        height: 85px;
+        height: 70px;
+    }
+    .answer .container .answer-content div{
+        height: 50px;
+        width: 50px;
     }
 }
 
@@ -225,20 +229,18 @@
         bottom: 21px;
         left: 15px;
         font-size: 16px;
-        padding: 13px 30px;
+        padding: 11px 28px;
     }
-}
-
-@media (max-width: 767px) {
     .hint-playagain .try-again {
         position: absolute;
         bottom: 21px;
-        padding: 13px 8px;
+        padding: 11px 6px;
         right: 15px;
         font-size: 16px;
         
     }
 }
+
 
 .winner .container {
     height: 470px;
