@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/output.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>HANGMAN GAME</title>
+</head>
+<body class="overflow-hidden">
+
+    <nav>
+        <div class="container">
+            <div class="nav-content flex justify-between items-center font-semibold pt-5 pb-2.5">
+                <h3>Hangman</h3>
+                <span class="flex justify-between items-center gap-1">
+                    <p>Word From:</p>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row mt-2.5">
+
+        <div class="container">
+            <div class="content flex items-center justify-between pb-2.5">
+
+                <div class="hang-man flex-1 h-full relative">
+                    <div class="one absolute bg-black"></div>
+                    <div class="two absolute bg-black"></div>
+                    <div class="three absolute bg-black"></div>
+                    <div class="four absolute "></div>
+                    <div class="five absolute"></div>
+                    <div class="six absolute bg-black"></div>
+                    <div class="seven absolute bg-black"></div>
+                    <div class="eigth absolute bg-black"></div>
+                </div>
+
+                <div class="letters flex-1 h-full flex items-start text-white">
+                    <div class="content flex justify-center flex-wrap gap-3 mt-3">
+                        <span id="A">A</span>
+                        <span id="B">B</span>
+                        <span id="C">C</span>
+                        <span id="D">D</span>
+                        <span id="E">E</span>
+                        <span id="F">F</span>
+                        <span id="G">G</span>
+                        <span id="H">H</span>
+                        <span id="I">I</span>
+                        <span id="J">J</span>
+                        <span id="K">K</span>
+                        <span id="L">L</span>
+                        <span id="M">M</span>
+                        <span id="N">N</span>
+                        <span id="O">O</span>
+                        <span id="P">P</span>
+                        <span id="Q">Q</span>
+                        <span id="R">R</span>
+                        <span id="S">S</span>
+                        <span id="T">T</span>
+                        <span id="U">U</span>
+                        <span id="V">V</span>
+                        <span id="W">W</span>
+                        <span id="X">X</span>
+                        <span id="Y">Y</span>
+                        <span id="Z">Z</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="answer mt-2.5">
+        <div class="container w-full">
+            <div class="answer-content flex justify-center items-center gap-3 p-3">
+            </div>
+        </div>
+    </div>
+
+    <div class="hint-playagain">
+        <div class="container flex gap-5 justify-center mt-10">
+            <button class="hint text-white">HINT</button>
+            <button class="try-again text-white">PLAY AGAIN</button>
+        </div>
+    </div>
+
+    <div class="winner ">
+        <div class="container absolute w-full flex justify-center items-center text-white font-bold">
+            <p>Congratulation You Are Winner !!!</p>
+        </div>
+    </div>
+
+    <div class="looser ">
+        <div class="container absolute w-full flex justify-center items-center text-white font-bold">
+            <p></p>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
