@@ -107,7 +107,6 @@ for (let i = 0; i < word.length; i++) {
                 uniqueLetters.splice(t , 1)
             } 
         }
-        console.log(uniqueLetters)
         hint.onclick = function (e) {
             hint.style.cssText ="background-color: #d1d1d1;"
             let hintLetter = uniqueLetters[Math.floor(Math.random()*uniqueLetters.length)]

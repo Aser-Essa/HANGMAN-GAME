@@ -153,32 +153,91 @@
     z-index: -1;
 }
 
+@media (max-width:1023px) {
+    .row .container .letters .content {
+        gap: 8px;
+    }
+}
+
 @media (max-width:767px) {
     .row .container > .content {
         flex-direction: column;
-        gap: 50px;
-        height: 300px;
+        height: 270px;
     }
     .row .container .hang-man {
         width: 100%;
-        min-height: 290px;
+        min-height: 260px;
     }
     .row .container .letters {
-        margin-top: 30px;
+        margin-top: 78px;
     }
     .row .container .letters .content span {
         width: 35px;
         height: 35px;
         font-size: 22px;
     }
-    .row .container .hang-man .two {
-        height: 255px;
+    .row .container .hang-man .one {
+        width: 55px;
+        height: 3px;
+        bottom: 25px;
+        left: 15%;
     }
-}
-
-@media (max-width:1023px) {
-    .row .container .letters .content {
-        gap: 8px;
+    .row .container .hang-man .two {
+        width: 3px;
+        height: 225px;
+        left: calc(15% + 27.5px);
+    }
+    .row .container .hang-man .three {
+        width: 95px;
+        height: 3px;
+        top: 35px;
+        left: calc(15% + 27.5px);
+    }
+    .row .container .hang-man .three::after {
+        width: 3px;
+        height: 25px;
+    }
+    .row .container .hang-man .four {
+        width: 60px;
+        height: 60px;
+        top: 58px;
+        border: 3px dashed black;
+        left: calc(15% + 91px);
+    }
+    .row .container .hang-man .five {
+        width: 45px;
+        height: 45px;
+        top: 64px;
+        border: 3.5px solid black;
+        left: calc(15% + 98.5px);
+    }
+    .row .container .hang-man .six {
+        width: 3.5px;
+        height: 85px;
+        top: 108px;
+        left: calc(15% + 120px);
+    }
+    .row .container .hang-man .seven {
+        width: 3.5px;
+        height: 60px;
+        top: 100px;
+        left: calc(15% + 145px);
+    }
+    .row .container .hang-man .seven::after {
+        width: 3.5px;
+        height: 60px;
+        left: -27px;
+        top: 39.5px;
+    }
+    .row .container .hang-man .eigth {
+        width: 3.5px;
+        height: 55px;
+        top: 186px;
+        left: calc(15% + 137px);
+    }
+    .row .container .hang-man .eigth::after {
+        width: 3.5px;
+        height: 55px;
     }
 }
 
@@ -226,14 +285,14 @@
 @media (max-width: 767px) {
     .hint-playagain .hint {
         position: absolute;
-        bottom: 5px;
+        bottom: 15px;
         left: 23px;
         font-size: 12px;
         padding: 9px 26px;
     }
     .hint-playagain .try-again {
         position: absolute;
-        bottom: 4px;
+        bottom: 15px;
         padding: 9px 5.5px;
         right: 24px;
         font-size: 12px;
